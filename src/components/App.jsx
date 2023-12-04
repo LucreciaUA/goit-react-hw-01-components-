@@ -1,16 +1,21 @@
+import React from 'react';
+import stats from './data.json'
+import { Statistics } from './stats'
+import { Profile } from './profile'
+import user from './user.json'
+import { Friends } from './friendlist';
+import friend from './friends.json'
+import { Table } from './transaction';
+import items from './transactions.json'
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
-};
+    <>
+      <Profile user={user} />
+      <Statistics stats={stats} />
+      <Friends friend={friend} />
+      <Table items={items} />
+    </>
+  )
+}
+
