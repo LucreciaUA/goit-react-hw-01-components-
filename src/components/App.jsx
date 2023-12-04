@@ -8,6 +8,7 @@ import friend from './friends.json'
 import { Table } from './transaction';
 import items from './transactions.json'
 
+
 export const App = () => {
   return (
     <>
