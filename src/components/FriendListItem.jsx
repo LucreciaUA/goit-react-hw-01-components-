@@ -1,5 +1,5 @@
 import css from './friendListItem.module.css'
-import { v4 as uuidv4 } from 'uuid';
+
 import PropTypes from 'prop-types';
 
 export const FriendListItem = ({ avatar, name, isOnline}) => {

@@ -1,7 +1,7 @@
 import css from './friendlist.module.css'
 import PropTypes from 'prop-types';
 import { FriendListItem } from './FriendListItem'
-import {v4 as uuidv4} from 'uuid';
+
 
 export const Friends = ({friend}) => {
     return (
